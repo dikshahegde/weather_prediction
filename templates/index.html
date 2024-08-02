@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Prediction</h1>
+        <form method="post" action="/predict">
+            <div class="form-group">
+                <label for="precipitation">Precipitation</label>
+                <input type="text" id="precipitation" name="precipitation">
+            </div>
+            <div class="form-group">
+                <label for="temp_max">Max Temperature(°C)</label>
+                <input type="text" id="temp_max" name="temp_max">
+            </div>
+            <div class="form-group">
+                <label for="temp_min">Min Temperature(°C)</label>
+                <input type="text" id="temp_min" name="temp_min">
+            </div>
+            <div class="form-group">
+                <label for="wind">Wind</label>
+                <input type="text" id="wind" name="wind">
+            </div>
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="text" id="year" name="year">
+            </div>
+            <div class="form-group">
+                <label for="month">Month</label>
+                <input type="text" id="month" name="month">
+            </div>
+            <input type="submit" value="Predict">
+        </form>
+        {% if result %}
+        <p>Predicted Weather is {{result}}!</p>
+        {% endif %}
+    </div>
+</body>
+</html>

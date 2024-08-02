@@ -1,0 +1,17 @@
+2024-07-17 22:17:48,775 ERROR __main__ Error loading model: [Errno 2] No such file or directory: 'new_model.pkl'
+2024-07-17 22:18:31,295 INFO __main__ Model loaded successfully.
+2024-07-17 22:18:31,371 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-17 22:18:31,371 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-07-17 22:18:31,388 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2024-07-17 22:18:32,561 INFO __main__ Model loaded successfully.
+2024-07-17 22:18:32,609 WARNING werkzeug  * Debugger is active!
+2024-07-17 22:18:32,613 INFO werkzeug  * Debugger PIN: 441-138-661
+2024-07-17 22:19:27,696 INFO __main__ Model loaded successfully.
+2024-07-17 22:19:27,762 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-17 22:19:27,762 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-07-17 22:19:27,779 INFO werkzeug  * Restarting with watchdog (windowsapi)
+2024-07-17 22:19:28,989 INFO __main__ Model loaded successfully.
+2024-07-17 22:19:29,020 WARNING werkzeug  * Debugger is active!
+2024-07-17 22:19:29,020 INFO werkzeug  * Debugger PIN: 441-138-661
